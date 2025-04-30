@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@400;500;600;700&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +36,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  font-family: sans-serif;
 }
