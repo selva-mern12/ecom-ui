@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import Footer from './Footer';
 import './FullCartPage.css';
+import { Link } from 'react-router-dom';
 
 function FullCartPage() {
   const { state, dispatch } = useCart();
@@ -63,7 +64,9 @@ function FullCartPage() {
           {state.items.length === 0 ? (
             <div className="empty-cart">
               <p>Your curated collection is empty</p>
-              <button className="browse-btn">Discover Exclusive Items</button>
+              <button className="browse-btn" >
+                <Link to='/products' className='link' >Discover Exclusive Items</Link>
+              </button>
             </div>
           ) : (
             <div className="cart-wrapper">

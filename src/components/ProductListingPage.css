@@ -80,6 +80,12 @@
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 30px;
 }
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 @media (max-width: 768px) {
   .main-header {
     height: 60px;
