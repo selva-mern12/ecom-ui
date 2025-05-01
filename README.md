@@ -31,8 +31,8 @@ Ensure the following are installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
-cd ecommerce-app
+git clone <[https://github.com/selva-mern12/ecom-ui](https://github.com/selva-mern12/ecom-ui)>
+cd ecom-frontend
 ```
 
 ### 2. Install Dependencies
@@ -40,7 +40,7 @@ cd ecommerce-app
 npm install
 ```
 
-Installs React, Tailwind, Axios, React Router, and other required packages.
+Installs React, Axios, React Router, and other required packages.
 
 ### 3. Start the Development Server
 ```bash
@@ -69,14 +69,12 @@ ecommerce-app/
 ├── src/
 │   ├── components/          # Header, Footer, Cart, etc.
 │   ├── context/             # CartContext
-│   ├── pages/               # HomePage, ProductPage, etc.
+│   ├── pages/               # HomePage
 │   ├── App.js               # Routing setup
 │   ├── index.js             # App entry point
-│   └── styles.css           # Tailwind styles
-├── tailwind.config.js       # Tailwind config
-├── postcss.config.js        # PostCSS config
+│   └── index.css             
 ├── package.json             # Dependencies and scripts
-└── README.md
+└── README.md                # Current file
 ```
 
 ---
@@ -93,21 +91,11 @@ ecommerce-app/
    - **Output Directory**: `build`
 4. Deploy and get your live URL.
 
-### Netlify
-
-1. Push to GitHub.
-2. Create a site on [Netlify](https://netlify.com).
-3. Use these settings:
-   - **Build Command**: `npm run build`
-   - **Publish Directory**: `build`
-4. Deploy and you're done!
-
 ---
 
 ## 📃 Approach
 
 - **React.js**: Modular UI & client-side routing with `react-router-dom`
-- **Tailwind CSS**: Utility-first styling for responsive UI
 - **Context API**: Lightweight state management for cart
 - **Fake Store API**: Dynamic product data fetching
 - **localStorage**: Cart persistence
@@ -142,7 +130,7 @@ ecommerce-app/
 
 ## 🔗 Live Demo
 
-[👉 View Live Site](https://your-deployment-url.com)
+[👉 View Live Site](https://elegance-smp.vercel.app/)
 
 ---
 
@@ -162,7 +150,7 @@ ecommerce-app/
 ## 📬 Contact
 
 For questions or feedback, reach me at:  
-**[your-email@example.com]**
+**[selva.mern12@gmail.com]**
 
 ---
 
